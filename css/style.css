@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width:13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 80%;
+    border: 3px solid white;
+    border-radius: 40px;
+    margin: 5px;
+    background-color: #e7e6e1;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+    
+}
+
+.nav-list{
+    width: 80%; 
+    display: flex; 
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.nav-list li a:hover{ 
+    color: rgb(197, 194, 194);
+}
+
+.rightNav{
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+    
+}
+#search{
+    outline: none;
+    padding: 0px;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 9px;
+    font-family: 'Roboto Slab', serif;}
+
+
+.background{
+    background: rgba(0,0,0,0.4) url('../img/bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstSection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    max-width: 50%;
+    margin: auto;
+    height: 69%;
+    
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf{
+    width: 30%;
+}
+
+.secondHalf img{
+    width: 86%;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    background-color: #ffffff8f;
+   
+}
+
+.text-big{
+    font-size: 34px;
+    padding: 0px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.text-small{
+    font-size: 18px;
+    padding: 10px 0px;
+    font-family: 'Roboto Slab', serif;
+}
+.button{
+    padding: 10px 0;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px; 
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+.btn-dark{
+    color: black;
+    border: 2px solid grey;
+
+}
+.section{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Roboto Slab', serif;
+    padding: 10px;
+}
+.heading{
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(24, 20, 18);
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+.sectionsubTag{
+    padding: 15px;
+}
+.section-left{
+    flex-direction: row-reverse;
+}
+.sectionTag{
+    padding: 4px 15px;
+}
+.thumbnail img{
+    width: 250px;
+    
+    border-radius: 26px;
+    margin-top: 19px;
+}
+.contact{
+    background-color: rgb(87 85 82);
+    height: 660px;
+    font-family: 'Roboto Slab', serif;
+}
+.text-center{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 35px;
+    font-family: 'Roboto Slab', serif;
+}
+.form{
+    max-width: 62%;
+    margin: 25px auto;
+}
+.form-input{
+    margin: 14px 0;
+    padding: 5px 13px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid rgb(20, 15, 15);
+    border-radius: 6px;
+    outline: none;
+    font-family: 'Roboto Slab', serif;
+}
+.btn-dark{
+   border: 2px solid black;
+   background-color: white;
+   font-size: 16px;
+}
+.text-footer{
+    text-align: center;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top:15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+.img1{
+    display: flex;
+    width: 31px;
+    height: 45px;
+    padding: 8px;
+    margin: 10px;
+    align-content: center;
+    flex-direction: row;
+}
+.fb{
+    margin: 4px;
+   
+}
+.fb img{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
