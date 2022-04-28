@@ -1,209 +1,565 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roshan Arikar's portfolio</title>
+    <link rel="shortcut icon" href="assets/RG.jpg" type="image/x-icon" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <title>Welcome-Roshan Arikar</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-65DBVTPZBW"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT AWSOME -->
+    <script
+      src="https://kit.fontawesome.com/683b4b40e3.js"
+      crossorigin="anonymous"
+    ></script>
 
-  gtag('config', 'G-65DBVTPZBW');
-</script>
+    <!-- Bootstrap Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"
+    />
+    <!-- Animate CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
-</head>
+    <!-- SplideJs Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.2.1/dist/css/splide.min.css"
+    />
+    <!-- App Styles -->
+    <link rel="stylesheet" href="styles/app.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="animate__animated animate__slideInDown">
+        <div class="container">
+          <nav class="navigation">
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#portfolio">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a
+              class="btn btn--main"
+              href="https://drive.google.com/file/d/1727V0zkC0zMswfYHheVBXYZspMf7NYTr/view?usp=sharing"
+              target="_blank"
+            >
+              <i class="bi bi-download"></i> Resume
+            </a>
+          </nav>
 
-<body>
-    <nav class="navbar background h-nav-resp">
-        <ul class="nav-list v-class-resp">
+          <h1 class="header__logo">
+            <a href="/">
+              <span>Roshan</span>
+              <span>Arikar</span>
+            </a>
+          </h1>
 
-            <li><a href="#homes">Home</a></li>
-            <li><a href="#gallary">Gallary</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about">About</a></li>
-        </ul>
-        <div class="rightNav v-class-resp">
-            <input type="text" name="search" id="search">
-            <button class="btn btn-sm">Search</button>
+          <div class="header__contact">
+            <!-- <a href="mailto:rishabhg.1996@gmail.com">rishabhg.1996@gmail.com</a> -->
+            <!-- <a class="btn btn--light" href="assets/FW14_375_Rishabh_Gupta.pdf" download> -->
+            <a
+              class="btn btn--light"
+              href="https://drive.google.com/file/d/1727V0zkC0zMswfYHheVBXYZspMf7NYTr/view?usp=sharing"
+              target="_blank"
+            >
+              <i class="bi bi-download"></i> Resume
+            </a>
+          </div>
+
+          <div class="header__mobile">
+            <button id="navigation-button">
+              <i class="bi bi-list"></i>
+            </button>
+          </div>
         </div>
-        <div class="burger" id="home">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__wrapper">
+          <div class="hero__img">
+            <img src="assets/Roshan Photo.png" alt="Profile Picture" />
+          </div>
+          <h1 class="hero__title animate__animated animate__slideInUp">
+            MERN STACK DEVELOPER <br />
+          </h1>
+          <p class="hero__content animate__animated animate__slideInUp">
+            Dedicated and determined aspiring full-stack developer with a
+            specialization in MERN stack. Seeking challenging opportunities to
+            make the best use of my abilities and knowledge to develop both my
+            professional and interpersonal skills, along with fulfilling the
+            organization's growth and goals
+          </p>
+          <ul class="social animate__animated animate__slideInLeft">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/roshanarikar/"
+                target="_blank"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/roshanarikar" target="_blank"
+                ><i class="bi bi-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="mailto:roshan.g.arikar@gmail.com" target="_blank"
+                ><i class="fa fa-envelope" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://leetcode.com/roshanarikar/" target="_blank"
+                ><img
+                  src="assets/ICONS/icons8-level-up-your-coding-skills-and-quickly-land-a-job-30.png"
+                  alt=""
+              /></a>
+            </li>
+          </ul>
         </div>
-    </nav>
-    <section class="background firstSection" id="homes">
-        <div class="box-main">
-            <div class="firstHalf">
-                <p class="text-big">Hello, I'm Roshan Arikar</p>
-                <p class="text-small">I'm from Nagpur Orange City. Nagpur is the center if India. I’m 21 year old web
-                    developer , learning Web developement & hosting. I love travelling in new cities and natural places.
-                    You can see in below , I was visited so many places.
-                    Follow my social media accounts for upcoming updates.</p>
-                
-                    <div class="img1">
-            
-                            <div class="fb"><a href="http://facebook.com/roshan.arikar"><img src="img/facebook.png"
-                                        alt="facebook"></a></div>
-                            <div class="fb"><a href="https://www.instagram.com/roshan_arikar"><img src="img/instagram.png"
-                                        alt="instagram"></a></div>
-                            <div class="fb"><a href="https://twitter.com/roshan_arikar"><img src="img/twitter.png" alt="twitter"></a></div>
-                            <div class="fb"><a href="https://www.youtube.com/channel/UC22vKb3V0iPa2yn8GHBCpmw"><img src="img/youtube.png"
-                                alt="linkedin"></a></div>   
-                    </div>
-                </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <br /><br /><br /><br />
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">About</h2>
+          <p class="section__subtitle">Few things about me</p>
+        </div>
+        <div class="about">
+          <h3 class="about__intro">
+            <p>👋</p>
+            Hello...!
+          </h3>
+          <h2 class="about__intro1">I'm Roshan Arikar</h2>
+          <p class="about__bio">
+            I am learning full-stack web development with a specialisation in
+            MERN stack from Masai School. I had graduated in B.Sc, Computer
+            Science in 2021 from Shri Mathuradas Mohota College of Science, RTMN
+            University, Nagpur. During my graduation, I developed a newfound
+            excitement for coding. Around this time, I was learning to code and
+            liked it so much so that I got keen to build a career in coding. So
+            I joined Masai School, which offers a 30-week full-time course in
+            full-stack web development. At Masai, we get hands-on experience in
+            front-end and back-end technologies. I have worked on clone-making
+            projects at Masai, which has not only helped improve my technical
+            skills but also soft skills like teamwork and communication. I am
+            now a more confident web developer and person.
+          </p>
+          <a class="about__link" href="#contact"
+            >Contact Me<i class="bi bi-arrow-right"></i
+          ></a>
+
+          <h4 class="about__skillsTitle">Tech Skills</h4>
+          <ul class="about__skillsList">
+            <li id="skill_img">
+              <img src="assets/ICONS/icons8-html-5-480.png" alt="" />HTML
+            </li>
+            <li id="skill_img">
+              <img src="assets/ICONS/icons8-css3-480.png" alt="" />CSS
+            </li>
+            <li id="skill_img">
+              <img
+                src="assets/ICONS/icons8-bootstrap-480.png"
+                alt=""
+              />BOOTSTRAP
+            </li>
+            <li id="skill_img">
+              <img
+                src="assets/ICONS/icons8-javascript-480.png"
+                alt=""
+              />JavaScript
+            </li>
+            <li id="skill_img">
+              <img src="assets/ICONS/icons8-mongodb-480.png" alt="" />MongoDb
+            </li>
+            <li id="skill_img">
+              <img src="assets/ICONS/icons8-mysql-logo-500.png" alt="" />MySql
+            </li>
+            <li id="skill_img">
+              <img src="assets/ICONS/icons8-nodejs-480.png" alt="" />NodeJs
+            </li>
+            <li id="skill_img">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
+                alt=""
+              />ExpressJs
+            </li>
+            <li id="skill_img">
+              <img src="assets/ICONS/icons8-react-native-480.png" alt="" />React
+            </li>
+            <li id="skill_img">
+              <img src="assets/ICONS/icons8-redux-480.png" alt="" />Redux
+            </li>
+            <li id="skill_img">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg"
+                alt=""
+              />Webpack
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section
+      class="section animate__animated animate__slideInUp"
+      id="portfolio"
+    >
+      <div class="container">
+        <div class="section__header section__header">
+          <h2 class="section__title">Projects</h2>
+          <p class="section__subtitle">See my latest work</p>
+        </div>
+        <div class="portfolio">
+          <div class="portfolio__box">
+            <img
+              id="projectimage1"
+              class="portfolio__img"
+              src="assets/Licious/Screen1.png"
+              alt="Portfolio Items"
+            />
+            <div class="portfolio__info">
+              <h3 class="portfolio__title">Licious</h3>
+              <p class="portfolio__content">
+                In this project We have tried to make a look alike clone of
+                Licious website it provides fresh chicken, meats, and Seafood
+                quickly delivery service in just a few clicks. that we have
+                learned till now in Masai School, we were able to clone the
+                front end and added similar looks and features.
+              </p>
+              <br />
+              <div class="tech_heading_skills">
+                <span>Tech Stacks:</span> <br />
+                <span id="mine_Skills">
+                  <p>HTML</p>
+                  <span>|</span>
+                  <p>CSS</p>
+                  <span>|</span>
+                  <p>JavaScript</p>
+                </span>
+              </div>
+              <br />
+              <div id="projects_button">
+                <a
+                  class="portfolio__link"
+                  href="https://github.com/roshanarikar/Licious-Clone"
+                  target="_blank"
+                >
+                  <i id="deploy_symbol" class="bi bi-github"></i>
+                  <span id="hover_deploy">View Code</span>
+                </a>
+                <a
+                  class="portfolio__link2"
+                  href="https://licious-clone.netlify.app/"
+                  target="_blank"
+                >
+                  <i
+                    id="deploy_symbol"
+                    class="bi bi-arrow-up-right-circle-fill"
+                  ></i>
+                  <span id="hover_deploy">View Live</span>
+                </a>
+              </div>
             </div>
-           
+          </div>
+          <div class="portfolio__box">
+            <img
+              id="projectimage3"
+              class="portfolio__img"
+              src="assets/EpicGames_Screenshots/epic10.jpg"
+              alt="Portfolio Items"
+            />
+            <div class="portfolio__info">
+              <h3 class="portfolio__title">Max Fashion</h3>
+              <p class="portfolio__content">
+                This project is a clone of an online game store Epic Games where
+                user can purchase different games of different genres. This is a
+                MERN stack project where we applied Back-end and integrated with
+                Front-end and added similar features.
+              </p>
+              <br />
+              <div class="tech_heading_skills">
+                <span>Tech Stacks:</span> <br />
+                <span id="mine_Skills">
+                  <p>HTML</p>
+                  <span>|</span>
+                  <p>CSS</p>
+                  <span>|</span>
+                  <p>JavaScript</p>
+                  <span>|</span>
+                  <p>ExpressJS</p>
+                  <span>|</span>
+                </span>
+                <span id="mine_Skills">
+                  <p>NodeJS</p>
+                  <span>|</span>
+                  <p>MongoDB</p>
+                  <span>|</span>
+                  <p>ReactJS</p>
+                </span>
+              </div>
+              <br />
+              <div id="projects_button">
+                <a
+                  class="portfolio__link"
+                  href="https://github.com/roshanarikar/MaxFashion-Clone"
+                  target="_blank"
+                >
+                  <i id="deploy_symbol" class="bi bi-github"></i>
+                  <span id="hover_deploy">View Code</span>
+                </a>
+                <a
+                  class="portfolio__link2"
+                  href="https://max-fashion-u3.netlify.app/"
+                  target="_blank"
+                >
+                  <i
+                    id="deploy_symbol"
+                    class="bi bi-arrow-up-right-circle-fill"
+                  ></i>
+                  <span id="hover_deploy">View Live</span>
+                </a>
+              </div>
+            </div>
+          </div>
+      
+            </div>
+          </div>
         </div>
+        <div class="section__footer">
+          <a href="#contact">
+            Ask for More Projects
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
     </section>
-    <div class="heading" id="gallary">
-        Visited places & Information about places
-    </div>
-    <hr>
-    <section class="section">
-        <div class="paras">
-            <p class="sectionTag text-big">Ganpatipule</p>
-            <p class="sectionsubTag text-small">Ganpatipule is a small town located 25 km north of the
-                city of Ratnagiri in Ratnagiri district on the Konkan coast of Maharashtra,in the sub-continent
-                of India. The town of Chiplun is located to its north.According to local folklore, the Hindu god
-                Ganapati, taking umbrage at a remark made by a native lady, moved to Pulé पुळे (a few km before the
-                town) from his original abode of Gulé. Thus the region was named Ganpati-pulé.
-               </p>
-        </div>
 
-        <div class="thumbnail">
-            <img src="img/ganpatipule.jpg" alt="pro. photo" class="imgfluid">
-        </div>
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="section__header section__header--center">
+        <h2 class="section__title">Contact Me</h2>
+        <p class="section__subtitle">Reach out to me, 24/7</p>
+      </div>
+      <div class="container">
+        <div class="contact">
+          <div class="contact__info">
+            <p>Call Me: <br /><a href="tel:7038125976"> +91 7038125976</a></p>
+            <p>
+              Email Me:<br /><a
+                href="mailto:roshan.g.arikar@gmail.com"
+                target="_blank"
+              >
+                roshan.g.arikar@gmail.com</a
+              >
+            </p>
+          </div>
 
+          <form
+            class="contact__form"
+            action="https://formspree.io/f/xgedzzny"
+            method="post"
+          >
+            <div class="contact__fields">
+              <label for="name">Name</label>
+              <input
+                type="name"
+                name="name"
+                id="name"
+                placeholder="Your Name"
+              />
+            </div>
+            <div class="contact__fields">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email Address"
+              />
+            </div>
+            <div class="contact__fields">
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Write Message..."
+              ></textarea>
+            </div>
+            <div class="contact__fields contact__fields--action">
+              <button class="btn btn--accent" type="submit">
+                Send Message <i class="bi bi-arrow-right"></i>
+              </button>
+            </div>
+          </form>
         </div>
+      </div>
     </section>
-    <section class="section section-left">
-        <div class="paras">
-            <p class="sectionTag text-big">Lenyadri Caves, Junnar</p>
-            <p class="sectionsubTag text-small">Lenyadri (Marathi: लेण्याद्री, Leṇyādri), sometimes called Ganesa Lena,
-                Ganesh Pahar Caves, are a series of about 30 rock-cut Buddhist caves, located about 4.8 kilometres (3.0
-                mi) north of Junnar in Pune district in the Indian state of Maharashtra. Other caves surrounding the
-                city of Junnar are: Manmodi Caves, Shivneri Caves and Tulja Caves. The Lenyadri caves date between the
-                1st and 3rd century AD and belong to the Hinayana Buddhism tradition.
-                </p>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__copyright">
+          <p>Made with &hearts; by <a href="/">Roshan Arikar</a></p>
+          <!-- <p>Template by: hello-there.com</p> -->
         </div>
-        <div class="thumbnail">
-            <img src="/img/junnar.jpg" alt="pro. photo" class="imgfluid">
+        <div class="footer__social">
+          <p>Follow Me :</p>
+          <ul class="social">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/roshan-arikar/"
+                target="_blank"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/roshanarikar" target="_blank"
+                ><i class="bi bi-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="mailto:roshan.g.arikar@gmail.com" target="_blank"
+                ><i class="fa fa-envelope" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://leetcode.com/roshanarikar/" target="_blank"
+                ><img
+                  src="assets/ICONS/icons8-level-up-your-coding-skills-and-quickly-land-a-job-30.png"
+                  alt=""
+              /></a>
+            </li>
+          </ul>
         </div>
-    </section>
-    <section class="section">
-        <div class="paras">
-            <p class="sectionTag text-big">Siddhatek, Ahmednagar</p>
-            <p class="sectionsubTag text-small">Siddhatek is a town in the Ahmednagar district of the western part of
-                India located on the Bhima River. The town is known for its temple to Sri Siddhi Vināyaka, the
-                right-tusked incarnation of Ganesha as "Masterful Remover". Legends surrounding the north-facing
-                temple suggest it was built to commemorate the place where Lord Vishnu defeated the evil Asuras
-                Madhu-Kaitabh with the blessing of Siddhi Vināyaka. The shrine is particularly popular during the
-                festivals of Ganesh Jayanti, Vijayadashami and Somvati Amavasya.
-                
-            </p>
-        </div>
-        <div class="thumbnail">
-            <img src="/img/siddhtek.jpg" alt="pro. photo" class="imgfluid">
-        </div>
-    </section>
-    <section class="section section-left">
-        <div class="paras">
-            <p class="sectionTag text-big">Shegaon</p>
-            <p class="sectionsubTag text-small">
-                Shegaon has become a pilgrimage centre due to the influence of Shri
-                Sant Gajanan Maharaj, who is considered a saint by Hindus.Shegaon is located 300 km (190 mi) west of
-                Nagpur and 550 km (340 mi) east of Mumbai. It is connected by Hajira–Dhule–Howrah National Highway 6 to
-                Khamgaon, Balapur, Malkapur and Akola.
-                
-            </p>
-        </div>
-        <div class="thumbnail">
-            <img src="/img/shegoan.jpg" alt="pro. photo" class="imgfluid">
-        </div>
-    </section>
-    <section class="section">
-        <div class="paras">
-            <p class="sectionTag text-big">Sevan Sister Hills, Sonapur Trekking point</p>
-            <p class="sectionsubTag text-small">
-                Seven Sisters Hills Sonapur Trekking point it's a Amazing Trekking point. Near Nagbhid city.
-                The surrounding view of the high peaks here is amazing.
-                But the road up to 2 kilometers is bad here. There is no arrangement for food and drink to live here.
-                
-            </p>
-        </div>
-        <div class="thumbnail">
-            <img src="/img/ssh1.jpg" alt="pro. photo" class="imgfluid">
-        </div>
-    </section>
-    <section class="section section-left">
-        <div class="paras">
-            <p class="sectionTag text-big">Rawanwadi, Bhandara</p>
-            <p class="sectionsubTag text-small">
-                Rawanwadi is a Village in Bhandara Taluka in Bhandara District of Maharashtra State, India. It
-                belongs to Vidarbh region. It belongs to Nagpur Division
-                It is located 1 KM towards South from District head quarters Bhandara
-                876 KM from State capital Mumbai Rawanwadi Pin code is 441924 and postal head office is Pahela
-                Rawanwadi is surrounded by Mohadi Taluka towards North , Lakhani Taluka towards East , Tumsar Taluka
-                towards North , Mouda Taluka towards west
-                
-            </p>
-        </div>
-        <div class="thumbnail">
-            <img src="/img/rawanwadi.jpeg" alt="pro. photo" class="imgfluid">
-        </div>
-    </section>
-    <section class="section">
-        <div class="paras">
-            <p class="sectionTag text-big">Futala Lake, Nagpur</p>
-            <p class="sectionsubTag text-small">Futala Lake is a lake in Nagpur in the Indian state of Maharashtra. The
-                lake covers 60 acres (24 ha).[1] Built by the Bhosle kings of Nagpur, the lake is known for its coloured
-                fountains. In the evenings the site is illuminated with halogen lights and Tanga (carriage) rides. The
-                lake is surrounded on three sides by forest and a landscaped beach on the fourth side.n the western area
-                of Nagpur, ancient Futala Lake has existed for 200 years. 
-            </p>
-        </div>
-        <div class="thumbnail">
-            <img src="/img/futala.jpeg" alt="pro. photo" class="imgfluid">
-        </div>
-    </section>
-    <section class="section section-left">
-        <div class="paras">
-            <p class="sectionTag text-big">Suraburdi, Nagpur</p>
-            <p class="sectionsubTag text-small">The surabardi dam in Nagpur is another place worth visiting atleast once
-                on the outskirts of NagpurIts a spiritual place situated at outskirts of nagpur near wadi at hilly area
-                .good place to visit along with family and friends , a big shiv parvati statue is there on artificial
-                mountain and you can find 12 jyotirlings inside the caves.</p>
-        </div>
-        <div class="thumbnail">
-            <img src="/img/suraburdi.JPG" alt="pro. photo" class="imgfluid">
-        </div>
-    </section>
-    <section class="contact" id="contact">
-        <h1 class="text-center">Contact Us</h1>
-        <div class="form">
-            <input type="text" class="form-input" name="name" id="name" placeholder="Enter your name">
-            <input type="phone" class="form-input" name="name" id="name" placeholder="Enter your mobile no.">
-            <input type="email" class="form-input" name="name" id="name" placeholder="Enter your email address">
-            <textarea name="text" id="" cols="30" rows="10" class="form-input"></textarea>
-            <button class="btn btn-sm btn-dark">Submit</button>
-        </div>
-    </section>
-    <footer class="background">
-        <p class="text-footer" id="about">
-            Copyright &copy; 2027 - www.roshanaikar.unaux.com - All right reserved
-            
-        </p>
-            
+      </div>
     </footer>
-    <script src="/js/resp.js"></script>
-</body>
 
+    <!-- //////////////////////////////////////////////////////// -->
+    <!-- SplideJs v3 -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.2.1/dist/js/splide.min.js"></script>
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- App Scripts -->
+    <script src="scripts/app.js"></script>
+  </body>
 </html>
+
+<script>
+  // ------------------------
+  var imageSources2 = [
+    "assets/NineWest_Screenshots/ninewest2.JPG",
+    "assets/NineWest_Screenshots/ninewest3.JPG",
+    "assets/NineWest_Screenshots/ninewest4.JPG",
+    "assets/NineWest_Screenshots/ninewest5.JPG",
+    "assets/NineWest_Screenshots/ninewest6.JPG",
+    "assets/NineWest_Screenshots/ninewest7.JPG",
+    "assets/NineWest_Screenshots/ninewest8.JPG",
+    "assets/NineWest_Screenshots/ninewest9.JPG",
+    "assets/NineWest_Screenshots/ninewest1.JPG",
+  ];
+
+  var index2 = 0;
+  setInterval(function () {
+    if (index2 === imageSources2.length) {
+      index2 = 0;
+    }
+    document.getElementById("projectimage2").src = imageSources2[index2];
+    index2++;
+  }, 2000);
+
+  // -----------------------------
+  var imageSources1 = [
+    "assets/Licious/screen1.png",
+    "assets/Licious/screen2.png",
+    "assets/Licious/screen3.png",
+    "assets/Licious/screen4.png",
+    "assets/Licious/screen5.png",
+    "assets/Licious/screen6.png",
+    "assets/Licious/screen7.png",
+  ];
+
+  var index1 = 0;
+  setInterval(function () {
+    if (index1 === imageSources1.length) {
+      index1 = 0;
+    }
+    document.getElementById("projectimage1").src = imageSources1[index1];
+    index1++;
+  }, 2000);
+
+  // -------------------
+  var imageSources3 = [
+    "assets/maxfashion/screen1.png",
+    "assets/maxfashion/screen2.png",
+    "assets/maxfashion/screen3.png",
+    "assets/maxfashion/screen4.png",
+    "assets/maxfashion/screen5.png",
+    "assets/maxfashion/screen6.png",
+    "assets/maxfashion/screen7.png",
+  ];
+
+  var index3 = 0;
+  setInterval(function () {
+    if (index3 === imageSources3.length) {
+      index3 = 0;
+    }
+    document.getElementById("projectimage3").src = imageSources3[index3];
+    index3++;
+  }, 2000);
+
+  // ------------------------------------
+  var imageSources4 = [
+    "assets/Mels/mels2.JPG",
+    "assets/Mels/mels3.JPG",
+    "assets/Mels/mels5.JPG",
+    "assets/Mels/mels6.JPG",
+    "assets/Mels/mels4.JPG",
+  ];
+
+  var index4 = 0;
+  setInterval(function () {
+    if (index4 === imageSources4.length) {
+      index4 = 0;
+    }
+    document.getElementById("projectimage4").src = imageSources4[index4];
+    index4++;
+  }, 2000);
+
+  document
+    .getElementById("projectimage3")
+    .addEventListener("click", function () {
+      window.open("https://epicgamesclone.vercel.app/", "_blank");
+    });
+  document
+    .getElementById("projectimage2")
+    .addEventListener("click", function () {
+      window.open("https://rishabhtg209.github.io/NINE_WEST/", "_blank");
+    });
+  document
+    .getElementById("projectimage1")
+    .addEventListener("click", function () {
+      window.open("https://vigorous-meitner-b9028e.netlify.app/", "_blank");
+    });
+  document
+    .getElementById("projectimage4")
+    .addEventListener("click", function () {
+      window.open("https://rishabhtg209.github.io/Recipe_MApp/", "_blank");
+    });
+</script>
