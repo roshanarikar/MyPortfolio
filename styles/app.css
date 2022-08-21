@@ -414,14 +414,14 @@ img {
       .portfolio__box:nth-child(1), .portfolio__box:nth-child(2), .portfolio__box:nth-child(3), .portfolio__box:nth-child(4) {
         flex-basis: 100%; }
         #projectimage1{
-        
+           max-width: 720px; 
         } }
   .portfolio__info {
     padding: 2rem; }
   .portfolio__img {
     max-height: 42rem;
     object-fit: cover;
-    max-width: 100px;
+    max-width: 720px;
     object-position: center;
     border-radius: 10px; 
     /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
